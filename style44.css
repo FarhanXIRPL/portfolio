@@ -1,0 +1,198 @@
+/* NAVBAR */
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-image:url(img/code-bg.jpg) ;
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/* INFO PANEL */
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: #ffff;
+    padding: 30px;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p {
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    margin-top: -5px;
+    font-weight: 200;
+}
+
+
+/* workingspace */
+.workingspace {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.workingspace h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.workingspace h3 span{
+    font-weight: 500;
+}
+
+.workingspace p{
+    font-size: 18px;
+    color: rgba(153, 153, 153, 0.788);
+    font-weight: 200;
+    margin: 20px;
+
+}
+.workingspace img{
+    width: 550px;
+    height: 300px;
+}
+
+
+
+/* testimonial */
+.testimonial {
+    margin-top: 100px;
+}
+
+.testimonial h5{
+    text-align: center;
+    font-weight: 200;
+    font-style: ;
+    font-size: 24px;
+}
+
+.carousel img{
+    height: 500px;
+
+}
+.carousel-indicators {
+    margin: 0px;
+}
+
+
+/* footer */
+.footer {
+    margin-top: 100px;
+}
+
+.footer p{
+    color: #acacac;
+    font-size: 18px;
+}
+
+/* utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* profile */
+.profile {
+    margin-top: 120px;
+}
+
+.profile img{
+    width: 550px;
+    height: 417px;
+}
+
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    .workingspace{
+        text-align: left;
+    }
+
+    .testimonial h5 {
+        font-size: 32px;
+    }
+ }

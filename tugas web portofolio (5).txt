@@ -1,0 +1,44 @@
+Tugas
+contoh web portofolio :
+https://iiibnuadam.github.io/simple-my-portfolio/
+
+A. Mengganti ikon di tengah
+1. hapus <img src ......>
+2. tambahkan diatas h4 :
+<h1 class="float-left" style="margin-top: -2px">👨🏻‍💻</h1>
+3. Ganti caption sesuai ikon
+
+cari emoji :
+tekan tombol windows dan . bersamaan
+emojikeyboard.org
+getemoji.com
+
+B. Mengganti gambar jumbotron
+1. cari gambar di unsplash.com sesuai keinginan
+2. simpan gambar di folder landing page
+3. edit style.css bagian jumbotron >> ganti nama gambar backgroundnya
+4. Ganti tulisan "Get work done faster and better with us" menjadi "Hello, I'am a Web Developer" (tulisan web developer boleh disesuaikan dengan keahlianmu)
+
+
+C. Mengubah tampilan workingspace
+1. Ganti gambar sesuai keahlianmu
+2. Ganti caption yang menunjukkan keahlianmu
+
+D. Membuat Slider gambar
+taruh code ini di bawah workingspace :
+<!-- Slider -->
+  <div class="slider" id="my-work">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1 class="text-center">My Work</h1>
+        </div>
+    </div>
+      <div class="row">
+        <div class="col experience-box card rounded p-4">
+          ini tempat code slider
+        </div>
+      </div>
+  </div>
+
+E. Membuat contact
+Isi kontak di bagian testimonial
