@@ -10,6 +10,11 @@
 }
 
 
+
+body {
+    background: #1F1D36;
+    color: white;
+}
 /* jumbotron */
 .jumbotron {
     background-image:url(img/code-bg.jpg) ;
